@@ -10,6 +10,7 @@ namespace ConsoleMenu
             string name = "";
             string password = "12345";
             bool isAuthorized = false;
+
             Console.WriteLine("Введите команду (Help - список команд):");
 
             while (userInput != "Esc")
